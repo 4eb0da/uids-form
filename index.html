@@ -1,0 +1,117 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Компания Яндекс — Анкета второй Школы разработки интерфейсов в Москве</title>
+    <link rel="stylesheet" href="./styles.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="./main.js"></script>
+</head>
+<body>
+    <form class="form">
+        <div class="menu">
+            <input type="submit" value="Отправить анкету" class="form-submit">
+            <div class="menu-group">
+                Общие вопросы [0/8]
+            </div>
+            <div class="menu-group">
+                Технические навыки [0/4]
+            </div>
+            <div class="menu-group">
+                Задания [0/3]
+            </div>
+            <div class="menu-group">
+                Дополнительно [0/3]
+            </div>
+        </div>
+        <div class="content">
+            <div class="group" data-group-id="0">
+                <div class="group-header">
+                    <span class="group-text">Общие вопросы</span>
+                    <span class="group-toggle group-hide">скрыть</span>
+                    <span class="group-toggle group-show">показать</span>
+                </div>
+                <div class="group-content">
+                    <div class="question">
+                        <div class="question-header">Вопрос 1</div>
+                        <div class="question-content">
+                            <div class="question-text">Год рождения.</div>
+                            <div class="question-answer">
+                                <textarea class="answer-textarea" required="required"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="question">
+                        <div class="question-header">Вопрос 2</div>
+                        <div class="question-content">
+                            <div class="question-text">Город, в котором вы живёте.</div>
+                            <div class="question-answer">
+                                <textarea class="answer-textarea" required="required"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="question">
+                        <div class="question-header">Вопрос 3</div>
+                        <div class="question-content">
+                            <div class="question-text">Вуз, факультет, специальность, кафедра.</div>
+                            <div class="question-answer">
+                                <textarea class="answer-textarea" required="required"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="question">
+                        <div class="question-header">Вопрос 4</div>
+                        <div class="question-content">
+                            <div class="question-text">Год окончания вуза.</div>
+                            <div class="question-answer">
+                                <textarea class="answer-textarea" required="required"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="question">
+                        <div class="question-header">Вопрос 5</div>
+                        <div class="question-content">
+                            <div class="question-text">Уровень владения английским языком:</div>
+                            <div class="question-answer">
+                                <div class="question-flags">
+                                    <label class="question-flag-label"><input type="checkbox" name="question5_flag0">начальный;</label>
+                                    <label class="question-flag-label"><input type="checkbox" name="question5_flag1">средний;</label>
+                                    <label class="question-flag-label"><input type="checkbox" name="question5_flag2">свободное владение;</label>
+                                </div>
+                                <textarea class="answer-textarea"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="question">
+                        <div class="question-header">Вопрос 6</div>
+                        <div class="question-content">
+                            <div class="question-text">Чего вы ожидаете от участия в Школе?</div>
+                            <div class="question-answer">
+                                <textarea class="answer-textarea" required="required"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="question">
+                        <div class="question-header">Вопрос 7</div>
+                        <div class="question-content">
+                            <div class="question-text">Откуда вы о нас узнали?</div>
+                            <div class="question-answer">
+                                <textarea class="answer-textarea" required="required"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="question">
+                        <div class="question-header">Вопрос 8</div>
+                        <div class="question-content">
+                            <div class="question-text">Сколько времени вы были бы готовы уделять стажировке или работе в Яндексе?</div>
+                            <div class="question-answer">
+                                <textarea class="answer-textarea" required="required"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

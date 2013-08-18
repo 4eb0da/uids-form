@@ -1,0 +1,80 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    font-family: "Droid Sans", sans-serif;
+    font-size: 14px;
+}
+
+.menu{
+    position: fixed;
+    width: 200px;
+    padding: 10px;
+    cursor: default;
+}
+
+.form-submit{
+    display: block;
+    color: #AAA;
+    height: 32px;
+    line-height: 32px;
+    border: none;
+    background: none;
+    font-size: 110%;
+    padding: 0;
+}
+
+.menu-group{
+    padding: 4px;
+    background: #eee;
+}
+
+.content{
+    margin-left: 220px;
+    max-width: 800px;
+    padding: 10px 0;
+}
+
+.group-header{
+    font-size: 110%;
+    height: 32px;
+    line-height: 32px;
+}
+
+.group-toggle{
+    display: inline-block;
+    border-radius: 2px;
+    padding: 2px;
+    height: 16px;
+    line-height: 16px;
+    background: #ddd;
+    border: 1px solid #ccc;
+    font-size: 90%;
+    cursor: pointer;
+}
+
+.group-toggle:hover{
+    background: #eee;
+}
+
+.group-show{
+    display: none;
+}
+
+.question-header{
+    margin-bottom: 4px;
+    font-weight: bold;
+}
+
+.question-content{
+    margin: 0 10px 10px 0;
+}
+
+.question-flag-label{
+    display: block;
+}
+
+.answer-textarea{
+    width: 100%;
+    resize: vertical;
+    border: 1px solid #aaa;
+}
