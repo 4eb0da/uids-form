@@ -12,15 +12,13 @@ html, body{
     cursor: default;
 }
 
+.form-submit-container{
+    padding-top: 5px;
+    text-align: center;
+}
+
 .form-submit{
-    display: block;
-    color: #AAA;
-    height: 32px;
-    line-height: 32px;
-    border: none;
-    background: none;
     font-size: 110%;
-    padding: 0;
 }
 
 .menu-group{
@@ -28,9 +26,13 @@ html, body{
     background: #eee;
 }
 
+.menu-group-filled{
+    background: #34E534;
+}
+
 .content{
     margin-left: 220px;
-    max-width: 800px;
+    max-width: 600px;
     padding: 10px 0;
 }
 
@@ -38,6 +40,8 @@ html, body{
     font-size: 110%;
     height: 32px;
     line-height: 32px;
+    font-weight: bold;
+    padding-bottom: 10px;
 }
 
 .group-toggle{
@@ -62,6 +66,9 @@ html, body{
 
 .question-header{
     margin-bottom: 4px;
+}
+
+.question-header-required{
     font-weight: bold;
 }
 
@@ -73,8 +80,30 @@ html, body{
     display: block;
 }
 
-.answer-textarea{
+.question-textarea{
     width: 100%;
     resize: vertical;
     border: 1px solid #aaa;
+}
+
+.question-header-additional{
+    float: left;
+    width: 150px;
+}
+
+.question-content-additional{
+    margin-left: 150px;
+}
+
+.question-input-text{
+    width: 100%;
+    border: 1px solid #aaa;
+}
+
+.question-additional:after{
+    content: "";
+    font-size: 0;
+    line-height: 0;
+    clear: both;
+    display: block;
 }
